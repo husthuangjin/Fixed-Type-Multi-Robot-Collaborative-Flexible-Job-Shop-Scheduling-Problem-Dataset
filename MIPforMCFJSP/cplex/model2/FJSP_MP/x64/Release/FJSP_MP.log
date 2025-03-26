@@ -1,0 +1,78 @@
+﻿  fjsp.cpp
+C:\Users\huangjin\Desktop\Multi-machine Collaborative\model\MP\cplex\model2\muti objective\MFJSP_MP\FJSP_MP\fjsp.cpp(389,52): warning C4244: “初始化”: 从“IloNum”转换到“int”，可能丢失数据
+C:\Users\huangjin\Desktop\Multi-machine Collaborative\model\MP\cplex\model2\muti objective\MFJSP_MP\FJSP_MP\fjsp.cpp(415,34): warning C4244: “=”: 从“IloNum”转换到“int”，可能丢失数据
+C:\Users\huangjin\Desktop\Multi-machine Collaborative\model\MP\cplex\model2\muti objective\MFJSP_MP\FJSP_MP\fjsp.cpp(65,15): warning C4101: “candidate”: 未引用的局部变量
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(144,47): warning C4244: “初始化”: 从“_Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=IloNum
+          ]
+          and
+          [
+              _Ty=int
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(236,102): message : 查看对正在编译的函数 模板 实例化“std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)”的引用
+          with
+          [
+              _This=int,
+              _Ty=IloNum,
+              _Other=IloNum
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(236,18): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,double>::tuple<std::_Exact_args_t,_Ty,double&,0>(_Tag,_This2 &&,double &)”的引用
+          with
+          [
+              _Ty=IloNum,
+              _Tag=std::_Exact_args_t,
+              _This2=IloNum
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(236,18): message : 查看对正在编译的函数 模板 实例化“std::tuple<double,int,double>::tuple<std::_Exact_args_t,_Ty,_Ty,double&,0>(_Tag,_This2 &&,_Ty &&,double &)”的引用
+          with
+          [
+              _Ty=IloNum,
+              _Tag=std::_Exact_args_t,
+              _This2=IloNum
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(236,18): message : 查看对正在编译的函数 模板 实例化“std::tuple<int,double,int,double>::tuple<std::_Exact_args_t,int&,_Ty,_Ty,double&,0>(_Tag,_This2,_Ty &&,_Ty &&,double &)”的引用
+          with
+          [
+              _Ty=IloNum,
+              _Tag=std::_Exact_args_t,
+              _This2=int &
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\tuple(282,16): message : 查看对正在编译的函数 模板 实例化“std::tuple<std::string,int,double,int,double>::tuple<std::_Exact_args_t,std::string&,int&,_Ty,_Ty,double&,0>(_Tag,_This2,int &,_Ty &&,_Ty &&,double &)”的引用
+          with
+          [
+              _Ty=IloNum,
+              _Tag=std::_Exact_args_t,
+              _This2=std::string &
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(677,47): message : 查看对正在编译的函数 模板 实例化“std::tuple<std::string,int,double,int,double>::tuple<std::string&,int&,_Ty,_Ty,double&,0>(_This2,int &,_Ty &&,_Ty &&,double &) noexcept(false)”的引用
+          with
+          [
+              _Ty=IloNum,
+              _This2=std::string &
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\vector(798,27): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::string&,int&,double,double,double&>(_Alloc &,_Objty *const ,std::string &,int &,double &&,double &&,double &)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::tuple<std::string,int,double,int,double>>,
+              _Ty=std::tuple<std::string,int,double,int,double>,
+              _Objty=std::tuple<std::string,int,double,int,double>
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\vector(780,20): message : 查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<std::string&,int&,double,double,double&>(std::string &,int &,double &&,double &&,double &)”的引用
+          with
+          [
+              _Ty=std::tuple<std::string,int,double,int,double>
+          ]
+D:\visual studio\Community\VC\Tools\MSVC\14.36.32532\include\vector(862,24): message : 查看对正在编译的函数 模板 实例化“_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::string&,int&,double,double,double&>(std::string &,int &,double &&,double &&,double &)”的引用
+          with
+          [
+              _Ty=std::tuple<std::string,int,double,int,double>
+          ]
+C:\Users\huangjin\Desktop\Multi-machine Collaborative\model\MP\cplex\model2\muti objective\MFJSP_MP\FJSP_MP\fjsp.cpp(424,22): message : 查看对正在编译的函数 模板 实例化“void std::vector<std::tuple<std::string,int,double,int,double>,std::allocator<std::tuple<std::string,int,double,int,double>>>::emplace_back<std::string&,int&,IloNum,IloNum,double&>(std::string &,int &,IloNum &&,IloNum &&,double &)”的引用
+  正在生成代码
+  707 of 722 functions (97.9%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  FJSP_MP.vcxproj -> C:\Users\huangjin\Desktop\Multi-machine Collaborative\model\MP\cplex\model2\muti objective\MFJSP_MP\x64\Release\FJSP_MP.exe
